@@ -8,8 +8,10 @@
     <body>
         <nav>
             <p>Google</p>
-            <a href="./image.html">Image</a>
-            <a href="./advance.html">Advance</a>
+            <div id="links">
+                <a href="./index.html">Search</a>
+                <a href="./image.html">Images</a>
+            </div>
         </nav>
         <h1>Advance search</h1>
         <hr>
@@ -30,11 +32,13 @@
                     <p class="text-cell">Type OR between all the words you want: <span>miniature OR standar</span></p>
                     <label for="these-words">none of these words...</label>
                     <input id="none-words" type="text">
-                    <p class="text-cell">Put a minus sign just before words that you don't want:
+                    <p class="over-text">Put a minus sign just before words that you don't want: <br>
                         <span>-rodent, -"Jack Russell"</span></p>
+                        <div></div>
+                        <button type="submit" name="q">Advanced Search</button>
+                        <div></div>
                 </form>
             </div>
         </div>
-
     </body>
 </html>

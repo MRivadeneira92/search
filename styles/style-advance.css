@@ -22,7 +22,20 @@ h1 {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 24px;
+  vertical-align: middle;
+  color: rbga(0, 0, 0, 0.87);
+  font-family: Arial, sans-serif;
+  padding-left: 15px;
+  color: black;
+}
+nav a:hover {
+  text-decoration: underline;
 }
 
 .body01 {
@@ -42,7 +55,7 @@ nav {
 .form-body {
   width: 1135px;
   display: grid;
-  grid-template-columns: 16% 54% 30%;
+  grid-template-columns: 15% 53% 32%;
   grid-template-rows: 20% 20% 20% 20%;
   row-gap: 10px;
   margin-top: 15px;
@@ -71,13 +84,36 @@ nav {
   min-width: 160px;
   margin: 0 0 8px 1%;
   line-height: 41px;
-  border: 1px solid black;
 }
 .form-body span {
   color: #666;
   font-size: 11px;
   font-family: monospace;
 }
-.form-body .text-cell {
+.form-body .over-text {
+  line-height: 14px;
+  padding-top: 5px;
+}
+
+button {
+  background-color: #4d90fe;
+  box-shadow: none;
+  border: 1px solid #3079ed;
+  color: #fff;
+  border-radius: 2px;
+  cursor: default;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  outline: 0;
+  padding: 0 8px;
+  line-height: 100%;
   height: 30px;
+  min-width: 120px;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-image: -moz-linear-gradient(top, #4d90fe, #4787ed);
 }/*# sourceMappingURL=style-advance.css.map */
