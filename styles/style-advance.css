@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+h1 {
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+}
+
+.main {
+  padding: 40px 50px;
+}
+.main p {
+  color: #333;
+  font-size: 16px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.body01 {
+  width: 1135px;
+  display: grid;
+  grid-template-columns: 16% 54% 30%;
+  row-gap: 20px;
+}
+.body01 .title-to-do {
+  color: #777;
+  font-weight: 700;
+  font-size: 13px;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.form-body {
+  width: 1135px;
+  display: grid;
+  grid-template-columns: 16% 54% 30%;
+  grid-template-rows: 20% 20% 20% 20%;
+  row-gap: 10px;
+  margin-top: 15px;
+}
+.form-body label {
+  color: #222;
+  line-height: 41px;
+  font-size: 13px;
+}
+.form-body input {
+  border: 1px solid #d9d9d9;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+  text-align: left;
+  border-radius: 1px;
+  border-top: 1px solid #c0c0c0;
+  min-width: 167px;
+  min-height: 41px;
+  margin-right: 16px;
+}
+.form-body p {
+  height: 30px;
+  color: #555;
+  font-size: 11px;
+  min-width: 160px;
+  margin: 0 0 8px 1%;
+  line-height: 41px;
+  border: 1px solid black;
+}
+.form-body span {
+  color: #666;
+  font-size: 11px;
+  font-family: monospace;
+}
+.form-body .text-cell {
+  height: 30px;
+}/*# sourceMappingURL=style-advance.css.map */
