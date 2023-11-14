@@ -26,27 +26,28 @@ nav a:hover {
 
 #search-bar {
   border-radius: 30px;
-  width: 600px;
+  width: 557px;
   height: 35px;
   border: solid 1px lightgrey;
-  padding: 5px 8px 0 14px;
+  padding: 5px 14px;
   cursor: text;
   background-color: transparent;
   line-height: 22px;
-  margin-bottom: 8px;
+  font-size: 16px;
   overflow-x: hidden;
+  margin: 0 0 8px 0;
+  resize: none;
 }
 
 #search-bar:hover {
   box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.1);
-  border: none;
 }
 
 #search-bar:focus {
   outline: none;
 }
 
-input, button {
+input[type=submit] {
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
@@ -72,4 +73,11 @@ form input[type=text] {
 }
 form input[type=submit] {
   display: inline-block;
+}
+
+#title {
+  font-size: 50px;
+}
+#title span {
+  font-size: 15px;
 }/*# sourceMappingURL=style.css.map */
