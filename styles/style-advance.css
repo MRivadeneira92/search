@@ -11,6 +11,10 @@ h1 {
   margin: 25px 35px;
 }
 
+hr {
+  border: 1px solid #ebebeb;
+}
+
 .main {
   padding: 40px 50px;
 }
@@ -22,7 +26,8 @@ h1 {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: space-between;
+  padding: 0 5px;
 }
 nav a {
   text-decoration: none;
@@ -83,7 +88,7 @@ nav a:hover {
   font-size: 11px;
   min-width: 160px;
   margin: 0 0 8px 1%;
-  line-height: 41px;
+  line-height: 21px;
 }
 .form-body span {
   color: #666;
